@@ -11,13 +11,33 @@ html, body {
 }
 .navbar-nav li{
     padding-right: 20px;
+    position: relative;
+    float: left;
+}
+.navbar-nav li a{color:#fff; text-decoration:none; padding:5px 10px; display:block;}
+.navbar-nav li a:hover{
+    color:#fff;
 }
 .nav-link{
     font-size: 1.1em !important;
 }
+.navbar-nav li ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    display:none;
+    padding-right: 20px;
+}
+.navbar-nav li:hover ul, .navbar-nav li.over ul{display: block; }
+.navbar-nav li ul li{
+    /*border:1px solid #c0c0c0;*/
+    background-color: #ffffff; /*#c0c0c0;*/
+    display:block;
+    width:150px;
+}
 .carousel-inner img{
     width: 70%;
-    height: 30%;
+    height: 20%;
     padding-top: 0%;
     margin-top: 0%;
 }
@@ -224,14 +244,14 @@ b, strong {
 samp {
     display: none;
 }
-footer {
+.footer {
     text-align: justify;
     font-weight: 400;
     line-height: 1.4;
     font-size: 1.0rem;
     padding: .8rem;
     background-color: none;
-    color: #3c3b37;
+    color: #3c3b37;/*3c3b37*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ul{
@@ -239,6 +259,7 @@ ul{
     margin: 0;
     padding: .8rem;
     display: block;
+    list-style-type: none;
 }
 img {
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
