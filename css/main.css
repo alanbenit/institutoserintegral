@@ -240,7 +240,8 @@ p.blocktext{
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-    width: 40em;
+    max-width: 40em;
+    min-width: auto;
     font-size: 18px;
 }
 .video-responsive{
