@@ -207,11 +207,41 @@ header {
     text-align: left;
     border: none;
 }
+.container{
+    display:auto;
+    border: 4px;
+    text-align: justify;
+    padding: 4em;
+}
+h3.blog{
+    text-align: center;
+    font-size: 45px;
+}
+h6.signature{
+    text-align: center;
+    font-size: 18px;
+}
+mark{
+    background: yellow;
+}
+blockquote{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+}
 p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-style: hidden;
     font-size: 13px;
     font-weight: 400;
+}
+p.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 40em;
+    font-size: 18px;
 }
 .video-responsive{
     overflow: hidden;
@@ -236,7 +266,8 @@ h2 {
     margin-top: 1.3em;
 }
 a {
-    color: #0083e8;
+    color: #3c3b37;/*#0083e8*/
+    text-decoration: none;
 }
 b, strong {
     font-weight: 600;
@@ -268,7 +299,7 @@ img {
     /*border-radius: 4px; */
     display: block;
     margin: 1.3em auto; 
-    max-width: 95%;
+    max-width: 80%;
 }
 @keyframes colorize {
     0% {
