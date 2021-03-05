@@ -193,8 +193,11 @@ header {
     padding: 10px;
 }
 .grid-container{
+    margin: 0 auto;
+    padding: 30px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr) minmax(200px, 1fr);
+    grid-gap: 30px;
     background-color: none;
     padding: 2rem;
     border: none;
