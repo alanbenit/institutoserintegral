@@ -95,6 +95,13 @@ html, body {
 .fa-bible{
     color: #2163af
 }
+.fa-youtube{
+    font-size: 4.5em;
+    color: #bb0000;
+}
+.fa-youtube:hover{
+    color: #d5d5d5;
+}
 .fa-book, .fa-university, .fa-bible{
     font-size: 4em;
     margin: 1rem;
