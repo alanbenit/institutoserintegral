@@ -182,7 +182,15 @@ figure {
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding: 1rem;
+    padding-left: 4rem;
+    padding-top: 0rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+.card{
+    margin: 2px 2px 2px 2px;
+    width: 260px;
+    height: 270px;
 }
 /*html {
     background: #e6e9e9;
