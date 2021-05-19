@@ -182,13 +182,18 @@ figure {
 }
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
-    padding-left: 4rem;
-    padding-top: 0rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    padding-left: .5em;
+    padding-top: 0em;
+    padding-right: .5em;
+    padding-bottom: 2em;
+    /*4rem 0rem 2rem 2rem*/
+    /*0 4% .5em 4%*/
+}
+.col-12{
+    padding: 0 1em .5em 0;
 }
 .card{
-    margin: 2px 2px 2px 2px;
+    margin: 1px 2px 1px 2px;
     width: 260px;
     height: 270px;
 }
@@ -231,7 +236,7 @@ header {
     display:auto;
     border: 4px;
     text-align: justify;
-    padding: 4em;
+    padding: 1em;
 }
 h3.blog{
     text-align: center;
