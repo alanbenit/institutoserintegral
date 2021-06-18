@@ -71,13 +71,28 @@ html, body {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+.carousel-caption h4{
+    font-size: 100%;
+    font-weight: 500;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+    padding-top: 0;
+}
 .btn-primary {
     background-color: #6648b1;
     border: 1px solid #6648b1;
+    padding: auto;
 }
 .btn-primary:hover{
     background-color: #563d7c;
     border: 1px solid #563d7c;
+}
+.btn-danger{
+    padding: auto;
+}
+.btn-outline{
+    padding: auto;
 }
 .jumbotron{
     padding: 1rem;
