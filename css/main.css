@@ -140,6 +140,10 @@ html, body {
     margin: 1rem;
 }
 
+iframe#form-edital{
+    width: 900px;
+    height: 1200px;
+}
 /*body {
     background: #fff;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
@@ -157,13 +161,49 @@ html, body {
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
+    .social a {
+        font-size: 4em;
+        padding: 2rem;
+    }
   }
 @media (max-width: 768px) {
-  
+    .carousel-caption{
+        top: 45%;
+    }
+    .carousel-caption h1{
+        font-size: 350%;
+    }
+    .carousel-caption h3{
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn{
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .fa-arrow-left{
+        font-size: 1.5em;
+    }
+    .fa-arrow-right{
+        font-size: 1.5em;
+    }
+    iframe#form-edital{
+        width: 600px;
+        height: 800px;
+    }
 }
 @media (max-width: 576px) {
-  
+    .fa-arrow-left{
+        font-size: 1.0em;
+    }
+    .fa-arrow-right{
+        font-size: 1.0em;
+    }
+    iframe#form-edital{
+        width: 160px;
+        height: 220px;
+    }
 }
 
 /*---Firefox Bug Fix --*/
@@ -292,7 +332,7 @@ h6.indice2{
     font-size: 14px;
 }
 mark{
-    background: yellow;
+    background: #ffff00;
 }
 blockquote{
     text-align: center;
