@@ -141,7 +141,7 @@ html, body {
 }
 .fa-arrow-alt-circle-up{
     font-size: 1.5em;
-    color: #2163af;
+    color: #bb0000;
 }
 
 iframe#form-edital{
@@ -260,7 +260,7 @@ figure {
     padding: 0 1em .5em 0;
 }
 .card{
-    margin: 1px 2px 1px 2px;
+    /*margin: 1px 2px 1px 2px;*/
     width: 260px;
     height: 270px;
 }
@@ -272,6 +272,10 @@ figure {
 .colab img{
     width: 100px;
     height: 150px;
+}
+.hotsite img{
+    width: 260px;
+    height: 200px;
 }
 /*html {
     background: #e6e9e9;
@@ -405,7 +409,7 @@ b, strong {
 samp {
     display: none;
 }
-.footer {
+.footer, .footer p a {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -415,10 +419,23 @@ samp {
     line-height: 1.0;
     font-size: small;
     padding: .3rem;
-    background-color: none;
-    color: #3c3b37;/*3c3b37*/
+    background-color: #2163af;
+    color: #f5f5f5;/*#3c3b37*/
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
+}
+.footer h6 {
+    color: #f5f5f5;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.footer hr{
+    background: none;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 1px;
+    border: none;
 }
 ul{
     display: block;
