@@ -1,0 +1,38 @@
+[
+	{"HORÁRIO MS": "7h00 - 7h45",
+	 "HORÁRIO BSB": "8h00 - 8h45",
+	 "SEG": "Giov (Red)",
+	 "QUA": "Ana/Ju (PORT)",
+	 "SEX": "Lucas (MAT)"
+	},
+	{"HORÁRIO MS": "7h45 - 8h30",
+	 "HORÁRIO BSB": "8h45 - 9h30",
+	 "SEG": "Giov (Red)",
+	 "QUA": "Ana/Ju (PORT)",
+	 "SEX": "Lucas (MAT)"
+	},
+	{"HORÁRIO MS": "8h30 - 9h15",
+	 "HORÁRIO BSB": "9h30 - 10h15",
+	 "SEG": "João (MAT)",
+	 "QUA": "Ana/Ju (PORT)",
+	 "SEX": "Lucas (MAT)"
+	},
+	{"HORÁRIO MS": "9h15 - 9h35",
+	 "HORÁRIO BSB": "10h15 - 10h35",
+	 "SEG": "Intervalo",
+	 "QUA": "Intervalo",
+	 "SEX": "Intervalo"
+	},
+	{"HORÁRIO MS": "9h35 - 10h20",
+	 "HORÁRIO BSB": "10h35 - 11h20",
+	 "SEG": "João (MAT)",
+	 "QUA": "Emilly (Red)",
+	 "SEX": "Emilly (PORT)"
+	},
+	{"HORÁRIO MS": "10h20 - 10h50",
+	 "HORÁRIO BSB": "11h20 - 11h50",
+	 "SEG": "João (MAT)",
+	 "QUA": "Emilly (Red)",
+	 "SEX": "Emilly (PORT)"
+	}
+]    
