@@ -421,6 +421,9 @@ table, th, td{
     padding: 2px 3px;
     text-align: center;
 }
+table table-responsive table-bordered table-striped{
+    word-wrap: break-word;
+}
 
 .footer, .footer p a {
     list-style: none;
