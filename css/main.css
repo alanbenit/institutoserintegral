@@ -128,11 +128,27 @@ html, body {
 .fa-bible{
     color: #2163af
 }
+.fa-facebook{
+    color: #3b5998;
+}
 .fa-youtube{
-    font-size: 2.5em;
     color: #bb0000;
 }
-.fa-youtube:hover{
+.fa-twitter{
+    color: #00aced;
+}
+.fa-instagram{
+    color: #8a3ab9 /*#517fa8;#3f729b*/
+}
+.social a{
+    font-size: 2.5em;
+    padding: 3rem;
+}
+.fa-youtube:hover,
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-whatsapp:hover{
     color: #d5d5d5;
 }
 .fa-book, .fa-university, .fa-bible{
