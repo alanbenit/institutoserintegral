@@ -363,6 +363,15 @@ p.blocktext{
     font-size: 18px;
     word-wrap: break-word;
 }
+p.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 40em;
+    min-width: auto;
+    font-size: 18px;
+    word-wrap: break-word;
+}
 ol{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-style: hidden;
@@ -410,8 +419,8 @@ samp {
     display: none;
 }
 /*Para a tabela do calendário de aulas*/
-table{
-    width: 100%;
+.table{
+    width: 100%; 
     font: 17px;
     font-family: 'Poppins', sans-serif;
 }
@@ -420,9 +429,6 @@ table, th, td{
     border-collapse: collapse;
     padding: 2px 3px;
     text-align: center;
-}
-table table-responsive table-bordered table-striped{
-    word-wrap: break-word;
 }
 
 .footer, .footer p a {
