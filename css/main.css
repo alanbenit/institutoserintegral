@@ -141,8 +141,8 @@ html, body {
     color: #8a3ab9 /*#517fa8;#3f729b*/
 }
 .social a{
-    font-size: 2.5em;
-    padding: 3rem;
+    font-size: 3em;
+    padding: 5rem;
 }
 .fa-youtube:hover,
 .fa-facebook:hover,
@@ -182,11 +182,15 @@ iframe#form-edital{
 /*---Media Queries --*/
 @media (max-width: 992px) {
     .social a {
-        font-size: 4em;
+        font-size: 3em;
         padding: 2rem;
     }
   }
 @media (max-width: 768px) {
+    .social a{
+        font-size: 2.5em;
+        padding: 2rem;
+    }
     .carousel-caption{
         top: 45%;
     }
@@ -214,6 +218,10 @@ iframe#form-edital{
     }
 }
 @media (max-width: 576px) {
+    .social a{
+        font-size: 2.5em;
+        padding: 2rem;
+    }
     .fa-arrow-left{
         font-size: 1.0em;
     }
