@@ -49,6 +49,9 @@
     </div>
   </nav>
   <div class="p-3 mb-2 bg-light text-dark">
+    <h5 class="blocktext text-center">Faltam...</h5>
+    <h1 class="blocktext text-center text-primary" id="timer"></h1>
+    <h5 class="blocktext text-center">...para o término das Inscrições!</h5>
     <p class="blocktext"><i>(Atualizado em 16/08/2021)</i></p>
     <hr>
     <p class="blocktext"><strong>Estão abertas as inscrições para o Concurso do Colégio Militar</strong>, conforme matéria publicada em 09 de agosto de 2021.</p>
@@ -128,4 +131,33 @@
     <a href="#" title="Voltar para o topo"><i class="fas fa-arrow-alt-circle-up"></i></a>
   </div>
 </body>
+<script>
+  // Set the date we're counting down to
+  var countDownDate = new Date("Sept 24, 2021 23:59:59").getTime();
+
+  // Update the count down every 1 second
+  var updateTimer = setInterval(function(){
+
+    // Get today's date and time
+    var now = new Date().getTime();
+
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="timer"
+    document.getElementById("timer").innerHTML = days + " DIAS " + hours + "h " + minutes + "min " + seconds + "s";
+
+    // If the count down is finished, write some text 
+    if (distance < 0){
+      clearInterval(updateTimer);
+      document.getElementById("timer").innerHTML = "EXPIRED";
+    }
+  }, 1000);
+</script>
 </html>
