@@ -162,7 +162,7 @@ html, body {
 
 iframe#form-edital{
     width: 900px;
-    height: 1200px;
+    height: 1370px;
 }
 /*body {
     background: #fff;
@@ -184,6 +184,10 @@ iframe#form-edital{
     .social a {
         font-size: 3em;
         padding: 2rem;
+    }
+    iframe#form-edital{
+        width: 800px;
+        height: 1370px;
     }
   }
 @media (max-width: 768px) {
@@ -214,7 +218,7 @@ iframe#form-edital{
     }
     iframe#form-edital{
         width: 600px;
-        height: 800px;
+        height: 1370px;
     }
 }
 @media (max-width: 576px) {
@@ -229,8 +233,8 @@ iframe#form-edital{
         font-size: 1.0em;
     }
     iframe#form-edital{
-        width: 160px;
-        height: 220px;
+        width: 500px;
+        height: 1370px;
     }
 }
 
