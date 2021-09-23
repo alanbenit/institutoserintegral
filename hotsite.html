@@ -152,12 +152,12 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="timer"
-    document.getElementById("timer").innerHTML = days + " DIAS " + hours + "h" + minutes + "min" + seconds + "s";
+    document.getElementById("timer").innerHTML = days + " DIA " + hours + "h" + minutes + "min" + seconds + "s";
 
     // If the count down is finished, write some text 
     if (distance < 0){
       clearInterval(updateTimer);
-      document.getElementById("timer").innerHTML = "EXPIRED";
+      document.getElementById("timer").innerHTML = "ESTE TIMER EXPIROU!";
     }
   }, 1000);
 </script>

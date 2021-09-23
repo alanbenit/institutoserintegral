@@ -140,6 +140,9 @@ html, body {
 .fa-instagram{
     color: #8a3ab9 /*#517fa8;#3f729b*/
 }
+.fa-user{
+    color: #2163af;
+}
 .social a{
     font-size: 3em;
     padding: 5rem;
