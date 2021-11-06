@@ -379,6 +379,9 @@ blockquote{
     font-size: 20px;
     font-style: italic;
 }
+.imgContainer{
+    float:left;
+}
 p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-style: hidden;
