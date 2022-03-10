@@ -60,10 +60,14 @@
       <div class="col-12">
         <h5>Aulas de Matemática | Ensino Médio</h5>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-        <iframe src="https://www.youtube.com/embed/ONnpJVEwC8c" title="YouTube video player" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-        gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video-wrapper">
+        <div class="video-container">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+            <iframe src="https://www.youtube.com/embed/ONnpJVEwC8c" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
         <iframe src="https://www.youtube.com/embed/UquE5d8VrAg" title="YouTube video player" 
@@ -120,4 +124,16 @@
   <div style="position:fixed; bottom:0px; right:30px;">
     <a href="#" title="Voltar para o topo"><i class="fas fa-arrow-alt-circle-up"></i></a>
 </body>
+<script>
+  video.each(function() {
+  var videoBox = $(this)
+  var youTuberegex = /(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com(?:\/embed\/|\/v\/|\/watch\?v=))([\w-]{10,12})/g,
+      videoID = youTuberegex.exec($(this).find('iframe').attr('src'))[1];
+
+  $.getJSON('http://gdata.youtube.com/feeds/api/videos/'+videoID+'?v=2&alt=jsonc', function(data){
+    var videoTitle = data.data.title;
+    videoBox.after('<figcaption>'+videoTitle+'</figcaption>');
+  });         
+});
+</script>
 </html>
