@@ -111,14 +111,14 @@ html, body {
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
-.fa-arrow-left{
+/*.fa-arrow-left{
     color: #bb0000;
     font-size: 2.0em;
 }
 .fa-arrow-right{
     color: #bb0000;
     font-size: 2.0em;
-}
+}*/
 .fa-book{
     color: #e54d26;
 }
@@ -165,7 +165,7 @@ html, body {
 
 iframe#form-edital{
     width: 900px;
-    height: 1370px;
+    height: 1200px;
 }
 /*body {
     background: #fff;
@@ -190,7 +190,7 @@ iframe#form-edital{
     }
     iframe#form-edital{
         width: 800px;
-        height: 1370px;
+        height: 1200px;
     }
   }
 @media (max-width: 768px) {
@@ -221,7 +221,7 @@ iframe#form-edital{
     }
     iframe#form-edital{
         width: 600px;
-        height: 1370px;
+        height: 800px;
     }
 }
 @media (max-width: 576px) {
@@ -237,7 +237,7 @@ iframe#form-edital{
     }
     iframe#form-edital{
         width: 500px;
-        height: 1370px;
+        height: 700px;
     }
 }
 
